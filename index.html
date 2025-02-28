@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Restoflot</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/shortcut.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/shortcut.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:title" content="Restoflot">
+	<meta property="og:description" content="Restoflot">
+	<meta property="og:type" content="website">
+	<!-- <meta property="og:image" content="img/shortcut.png"> -->
+	<meta property="og:site_name" content="Restoflot">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@700&family=Inter:wght@700&family=Karla:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="body-wrap">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box d-flex">
+						<a href="index.html" class="nav__logo">
+							<img src="img/logo.svg" alt="" class="nav__icon">
+						</a>
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#about" class="nav__link go_to">
+									О нас 
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="#cate" class="nav__link go_to">
+									Кейтеринг
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="#items" class="nav__link go_to">
+									Решения
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="#area" class="nav__link go_to">
+									Площадки 
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="#ser" class="nav__link go_to">
+									Услуги
+								</a>
+							</li>
+						</ul>
+						<div class="nav__info d-flex">
+							<a href="tel:+78124261717" class="nav__tel">
+								+7 (812) 426-17-17
+							</a>
+							<a href="#" class="nav__btn bttn">
+								Заказать звонок
+							</a>
+						</div>
+						<div class="menu">
+							<a href="#" class="button "><span></span></a>
+					   </div>
+					   <div class="burger">
+							<div class="nav__info d-flex">
+								<a href="tel:+78124261717" class="nav__tel">
+									+7 (812) 426-17-17
+								</a>
+								<a href="#" class="nav__btn bttn">
+									Заказать звонок
+								</a>
+							</div>
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a href="#about" class="nav__link go_to">
+										О нас 
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="#cate" class="nav__link go_to">
+										Кейтеринг
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="#items" class="nav__link go_to">
+										Решения
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="#area" class="nav__link go_to">
+										Площадки 
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="#ser" class="nav__link go_to">
+										Услуги
+									</a>
+								</li>
+							</ul>
+					   </div>
+					</div>
+				</div>
+			</nav>
+			<div class="header__slider">
+				<div class="header__slide header__slide_1">
+					<img src="img/main.jpg" alt="" class="slide">
+					<div class="container">
+						<div class="header__box">
+							<h1>
+								Подбор идеального меню на любой вкус
+							</h1>
+							<p class="header__text">
+								Опыт, креатив и команда 
+								настоящих творцов
+							</p>
+							<a href="#" class="header__btn bttn">
+								Получить консультацию <img src="img/a1.svg" alt="" class="svg">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__slide header__slide_2">
+					<img src="img/main2.png" alt="" class="slide">
+					<div class="container">
+						<div class="header__box">
+							<h1>
+								Мы создаем эмоции Вкусом
+							</h1>
+							<p class="header__text">
+								Опыт, креатив и команда настоящих творцов
+							</p>
+							<a href="#" class="header__btn bttn">
+								Получить консультацию <img src="img/a1.svg" alt="" class="svg">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__slide header__slide_3">
+					<img src="img/main3.png" alt="" class="slide">
+					<div class="container">
+						<div class="header__box">
+							<h1>
+								Мы - агентство стратегических событий Рестофлот
+							</h1>
+							<a href="#" class="header__btn bttn">
+								Получить консультацию <img src="img/a1.svg" alt="" class="svg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about__box d-flex">
+					<div class="about__wrap">
+						<img src="img/man.png" alt="" class="about__pic">
+						<div class="about__info">
+							<p class="about__name">
+								Алферов Владимир
+							</p>
+							<p class="about__job">
+								Шеф-повар Restoflot 
+							</p>
+						</div>	
+					</div>
+					<div class="about__content">
+						<h2>
+							О нас
+						</h2>
+						<p class="about__text">
+							Кейтеринговая компания Restoflot – входит в группу компаний Астра Марин, успешно занимаясь организацией частных и деловых мероприятий, соблюдая баланс между простотой и элегантностью. 
+						</p>
+						<p class="about__text">
+							За более чем 20-летний опыт обслуживания крупнейшей сети ресторанов на воде в Санкт-Петербурге, мы научились ежедневно и точно по расписанию воплощать мероприятия любой сложности - от организации недорогих фуршетов, до статусных банкетов на 200 человек.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="info" id="info">
+			<div class="container">
+				<div class="info__box d-flex" id="counter">
+					<div class="info__item">
+						<div class="info__num number" data-num="400">
+							400
+						</div>
+						<p class="info__name">
+							Мероприятий за год
+						</p>
+						<p class="info__text">
+							Нам по плечу любое ваше пожелание, изысканный банкет, легкий фуршет и меню теплоходов-ресторанов на регулярном рейсе.
+						</p>
+					</div>
+					<div class="info__item">
+						<div class="info__num number" data-num="15">
+							15
+						</div>
+						<p class="info__name">
+							Счастливых клиентов
+						</p>
+						<p class="info__text">
+							Менеджеры компании помогут подобрать подходящий вариант исходя из вида мероприятия и количества гостей.
+						</p>
+					</div>
+					<div class="info__item">
+						<div class="info__num number" data-num="45">
+							45
+						</div>
+						<p class="info__name">
+							Блюд приготовлено
+						</p>
+						<p class="info__text">
+							Мы заботимся о том, чтобы наши блюда были оригинальными и вкусными, а вам хотелось возвращаться к нам вновь и вновь.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="team" id="team">
+			<div class="container">
+				<div class="team__wrap">
+					<img src="img/team.png" alt="" class="team__pic">
+					<div class="team__content">
+						<p class="team__name">
+							Наша команда
+						</p>
+						<p class="team__text">
+							Опыт, креатив и команда настоящих творцов позволяет сделать ваше мероприятие уникальным 
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cate" id="cate">
+			<div class="container">
+				<div class="cate__wrap">
+					<img src="img/fig2.svg" alt="" class="cate__fig">
+					<h2>
+						Кейтеринг
+					</h2>
+					<p class="sub">
+						Оказывая услуги кейтеринга, по выездному обслуживанию, как для пары человек так и для нескольких сотен – доставка на обед или на кофе-брейк, на фуршет или на свадебный банкет - мы доставим еду приготовленную из самых свежих и качественных продуктов, ту которую вы и хотите и любите.
+					</p>
+					<div class="cate__box d-flex">
+						<div class="cate__item">
+							<img src="img/img1.png" alt="" class="cate__pic">
+							<p class="cate__name">
+								Свадьба
+							</p>
+						</div>
+						<div class="cate__item">
+							<img src="img/img2.png" alt="" class="cate__pic">
+							<p class="cate__name">
+								Корпоратив
+							</p>
+						</div>
+						<div class="cate__item">
+							<img src="img/img3.png" alt="" class="cate__pic">
+							<p class="cate__name">
+								Выпускной
+							</p>
+						</div>
+						<div class="cate__item">
+							<img src="img/img4.png" alt="" class="cate__pic">
+							<p class="cate__name">
+								Мальчишник <br> Девичник
+							</p>
+						</div>
+						<a href="#" class="cate__item">
+							<img src="img/img5.png" alt="" class="cate__pic">
+							<p class="cate__name">
+								И многое другое <img src="img/arr-right.svg" alt="" class="svg">
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="items" id="items">
+			<div class="container">
+				<div class="items__wrap">
+					<h2>
+						Готовые решения
+					</h2>
+					<p class="sub">
+						Из деталей складывается картина впечатлений, а мероприятия - это Ваши положительные впечатления! 
+					</p>
+					<div class="items__slider">
+						<a href="#" class="items__block items__block1">
+							<img src="img/item2.png" alt="" class="cate__pic">
+							<div class="ser__content">
+								<p class="cate__name">
+									Фуршет
+								</p>
+								<p class="ser__text">
+									на 5-6 человек
+								</p>
+							</div>
+							<img src="img/arr-right.svg" alt="" class="svg items__arr">
+						</a>
+						<a href="#" class="items__block items__block2">
+							<img src="img/item1.png" alt="" class="cate__pic">
+							<div class="ser__content">
+								<p class="cate__name">
+									Фуршет
+								</p>
+								<p class="ser__text">
+									на 5-6 человек
+								</p>
+							</div>
+							<img src="img/arr-right.svg" alt="" class="svg items__arr">
+						</a>
+						<a href="#" class="items__block items__block3">
+							<img src="img/item3.png" alt="" class="cate__pic">
+							<div class="ser__content">
+								<p class="cate__name">
+									Фуршет
+								</p>
+								<p class="ser__text">
+									на 5-6 человек
+								</p>
+							</div>
+							<img src="img/arr-right.svg" alt="" class="svg items__arr">
+						</a>
+						<a href="#" class="items__block items__block4">
+							<img src="img/item4.png" alt="" class="cate__pic">
+							<div class="ser__content">
+								<p class="cate__name">
+									Фуршет
+								</p>
+								<p class="ser__text">
+									на 5-6 человек
+								</p>
+							</div>
+							<img src="img/arr-right.svg" alt="" class="svg items__arr">
+						</a>
+						<a href="#" class="items__block items__block5">
+							<img src="img/item1.png" alt="" class="cate__pic">
+							<div class="ser__content">
+								<p class="cate__name">
+									Фуршет
+								</p>
+								<p class="ser__text">
+									на 5-6 человек
+								</p>
+							</div>
+							<img src="img/arr-right.svg" alt="" class="svg items__arr">
+						</a>
+					</div>
+					<p class="items__order">У нас Вы можете заказать...</p>
+				</div>
+			</div>
+		</section>
+		<section class="area" id="area">
+			<div class="container">
+				<h2>
+					Площадки под Ваше мероприятие
+				</h2>
+				<p class="sub">
+					Большое значение имеет место проведения торжества.  Вы сможете интересно провести время, наслаждаясь вкусом ваших любимых блюд на любой площадке, которую мы с радостью поможем подобрать в зависимости от типа мероприятия и бюджета.
+				</p>
+				<div class="area__slider">
+					<div class="area__item">
+						<a href="#" class="area__link">
+							<img src="img/b1.png" alt="" class="area__pic">
+						</a>
+						<div class="area__bottom">
+							<p class="area__name">
+								Астра
+							</p>
+							<p class="area__text">
+								Вместимость: 130 чел. <br>
+								Ресторан-теплоход курсирующий по Неве и Финскому заливу
+							</p>
+							<div class="area__flex d-flex">
+								<p class="area__sum">
+									от 55 000 руб/час
+								</p>
+								<a href="#" class="area__arr">
+									<img src="img/arr-area.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="area__item">
+						<a href="#" class="area__link">
+							<img src="img/b2.png" alt="" class="area__pic">
+						</a>
+						<div class="area__bottom">
+							<p class="area__name">
+								Атриум Толстый Сквер
+							</p>
+							<p class="area__text">
+								Вместимость: 200 чел. <br>
+								Банкетный зал “Юбилейный”
+							</p>
+							<div class="area__flex d-flex">
+								<p class="area__sum">
+									от 55 000 руб/час
+								</p>
+								<a href="#" class="area__arr">
+									<img src="img/arr-area.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="area__item area__item_block">
+						<p class="area__title">
+							Подберем площадку по вашим требованиям
+						</p>
+						<a href="#" class="area__btn bttn">
+							Подобрать
+						</a>
+					</div>
+					<div class="area__item">
+						<a href="#" class="area__link">
+							<img src="img/b1.png" alt="" class="area__pic">
+						</a>
+						<div class="area__bottom">
+							<p class="area__name">
+								Астра
+							</p>
+							<p class="area__text">
+								Вместимость: 130 чел. <br>
+								Ресторан-теплоход курсирующий по Неве и Финскому заливу
+							</p>
+							<div class="area__flex d-flex">
+								<p class="area__sum">
+									от 55 000 руб/час
+								</p>
+								<a href="#" class="area__arr">
+									<img src="img/arr-area.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cate ser" id="ser">
+			<div class="container">
+				<div class="cate__wrap">
+					<h2>
+						Дополнительные услуги
+					</h2>
+					<p class="sub">
+						Планируете праздник на теплоходе? Прекрасно! Мы рады предложить вам услуги наших партнеров. Артисты, ведущие, музыканты, фотографы, декораторы, флористы - мы берем на себя ответственность за то, что они вас не подведут!
+					</p>
+					<div class="ser__box d-flex">
+						<div class="ser__left">
+							<div class="cate__item">
+								<img src="img/img6.png" alt="" class="cate__pic">
+								<div class="ser__content">
+									<p class="cate__name">
+										Фотограф
+									</p>
+									<p class="ser__text">
+										от 4 000 руб/час
+									</p>
+								</div>
+							</div>
+							<div class="cate__item">
+								<img src="img/img7.png" alt="" class="cate__pic">
+								<div class="ser__content">
+									<p class="cate__name">
+										Фейерверки
+									</p>
+									<p class="ser__text">
+										от 40 000 руб/услуга
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="ser__right">
+							<div class="cate__box d-flex">
+								<div class="cate__item">
+									<img src="img/img8.png" alt="" class="cate__pic">
+									<div class="ser__content">
+										<p class="cate__name">
+											Ведущий
+										</p>
+										<p class="ser__text">
+											от 10 000 руб/час
+										</p>
+									</div>
+								</div>
+								<div class="cate__item">
+									<img src="img/img9.png" alt="" class="cate__pic">
+									<div class="ser__content">
+										<p class="cate__name">
+											Dj
+										</p>
+										<p class="ser__text">
+											от 5 000 руб/час
+										</p>
+									</div>
+								</div>
+								<div class="cate__item">
+									<img src="img/img10.png" alt="" class="cate__pic">
+									<div class="ser__content">
+										<p class="cate__name">
+											Музыканты
+										</p>
+										<p class="ser__text">
+											от 25 000 руб/час (2 часа)
+										</p>
+									</div>
+								</div>
+								<div class="cate__item">
+									<img src="img/img11.png" alt="" class="cate__pic">
+									<div class="ser__content">
+										<p class="cate__name">
+											Флористы и декораторы
+										</p>
+										<p class="ser__text">
+											от 4 000 руб/композиция
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="ser__btn d-flex">
+						<p>Еще услуги...</p>
+						<div><img src="img/small-arr.svg" alt="" class="svg"></div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="rev" id="rev">
+			<div class="container">
+				<div class="rev__wrap">
+					<img src="img/fig3.svg" alt="" class="rev__fig">
+					<h2>
+						Отзывы
+					</h2>
+					<div class="rev__slider">
+						<div class="rev__item">
+							<div class="rev__block">
+								<p class="rev__title">
+									Свадьба на теплоходе «Астра»
+								</p>
+								<p class="rev__text">
+									Огромная благодарность сотрудникам ресторана за красивую сервировку стола, отличное обслуживание, вкусные блюда, тёплую атмосферу и прекрасное музыкальное сопровождение. Все понравилось!
+									Обязательно посоветуем своим знакомым! <br> За всё спасибо!!!
+								</p>
+								<div class="rev__info d-flex">
+									<div class="rev__el">
+										<img src="img/m.svg" alt="">
+									</div>
+									<div class="rev__content">
+										<p class="rev__name">
+											Вячеслав
+										</p>
+										<p class="rev__data">
+											05.07.2022
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rev__block">
+								<p class="rev__title">
+									Свадьба на теплоходе «Астра»
+								</p>
+								<p class="rev__text">
+									Огромная благодарность сотрудникам ресторана за красивую сервировку стола, отличное обслуживание, вкусные блюда, тёплую атмосферу и прекрасное музыкальное сопровождение. Все понравилось!
+									Обязательно посоветуем своим знакомым! <br> За всё спасибо!!!
+								</p>
+								<div class="rev__info d-flex">
+									<div class="rev__el">
+										<img src="img/m.svg" alt="">
+									</div>
+									<div class="rev__content">
+										<p class="rev__name">
+											Вячеслав
+										</p>
+										<p class="rev__data">
+											05.07.2022
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rev__item">
+							<div class="rev__block">
+								<p class="rev__title">
+									Корпоратив на теплоходе «Москва»
+								</p>
+								<p class="rev__text">
+									Всей команде и экипажу хотим сказать: Большое спасибо! За внимательность, идеальное обслуживание, а главное за терпение :) Работать с таким коллективом одно удовольствие. Всегда уверена, что мероприятие с вашей компанией пройдут идеально. Спасибо!
+								</p>
+								<div class="rev__info d-flex">
+									<div class="rev__el">
+										<img src="img/g.svg" alt="">
+									</div>
+									<div class="rev__content">
+										<p class="rev__name">
+											Едемвотпуск.рф
+										</p>
+										<p class="rev__data">
+											20.05.2022
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rev__block">
+								<p class="rev__title">
+									Корпоратив на теплоходе «Москва»
+								</p>
+								<p class="rev__text">
+									Всей команде и экипажу хотим сказать: Большое спасибо! За внимательность, идеальное обслуживание, а главное за терпение :) Работать с таким коллективом одно удовольствие. Всегда уверена, что мероприятие с вашей компанией пройдут идеально. Спасибо!
+								</p>
+								<div class="rev__info d-flex">
+									<div class="rev__el">
+										<img src="img/g.svg" alt="">
+									</div>
+									<div class="rev__content">
+										<p class="rev__name">
+											Едемвотпуск.рф
+										</p>
+										<p class="rev__data">
+											20.05.2022
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rev__item">
+							<div class="rev__block">
+								<p class="rev__title">
+									Свадьба на теплоходе «Астра»
+								</p>
+								<p class="rev__text">
+									Огромная благодарность сотрудникам ресторана за красивую сервировку стола, отличное обслуживание, вкусные блюда, тёплую атмосферу и прекрасное музыкальное сопровождение. Все понравилось!
+									Обязательно посоветуем своим знакомым! За всё спасибо!!!
+								</p>
+								<div class="rev__info d-flex">
+									<div class="rev__el">
+										<img src="img/m.svg" alt="">
+									</div>
+									<div class="rev__content">
+										<p class="rev__name">
+											Вячеслав
+										</p>
+										<p class="rev__data">
+											05.07.2022
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="rev__block">
+								<p class="rev__title">
+									Свадьба на теплоходе «Астра»
+								</p>
+								<p class="rev__text">
+									Огромная благодарность сотрудникам ресторана за красивую сервировку стола, отличное обслуживание, вкусные блюда, тёплую атмосферу и прекрасное музыкальное сопровождение. Все понравилось!
+									Обязательно посоветуем своим знакомым! За всё спасибо!!!
+								</p>
+								<div class="rev__info d-flex">
+									<div class="rev__el">
+										<img src="img/m.svg" alt="">
+									</div>
+									<div class="rev__content">
+										<p class="rev__name">
+											Вячеслав
+										</p>
+										<p class="rev__data">
+											05.07.2022
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="order" id="order">
+			<div class="container">
+				<div class="order__wrap">
+					<img src="img/girl.png" alt="" class="order__girl">
+					<div class="order__box">
+						<h2>
+							Заказать кейтеринг
+						</h2>
+						<p class="order__info">
+							Оставьте заявку и мы свяжемся с Вами в ближайшее время для уточнения
+							всех деталей и подбора подходящего варианта.
+						</p>
+						<form action="success2.php" class="order__form js-form2" id="popupResult" method="post">
+							<input type="text" name="name" required=""  placeholder="Имя*" class="order__input form__field">
+							<input type="tel" name="tel" required=""  placeholder="Телефон*" class="order__input form__field">
+							<input type="text" name="data" required=""  placeholder="Дата" class="order__input form__field" id="datepicker">
+							<select class="js-example-basic-single form__field" required="" name="state" aria-placeholder="Тип мероприятия">
+								<option value="first" disabled selected hidden>Тип мероприятия</option>
+								<option value="Фуршет">Фуршет</option>
+								<option value="Свадьба">Свадьба</option>
+								<option value="Корпоратив">Корпоратив</option>
+							  </select>
+							<input type="number" name="persons" required=""  placeholder="Количество человек" class="order__input form__field">
+							<button class="order__btn bttn" data-submit2>
+								Заказать
+							</button>
+							<div class="checkbox">
+								<input class="custom-checkbox" checked="" type="checkbox" id="1">
+								<label for="1"><p>Отправляя заявку, я соглашаюсь <br>
+									на обработку персональных данных</p></label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__box d-flex">
+					<img src="img/logo-footer.svg" alt="" class="footer__logo">
+					<div class="footer__wrap d-flex">
+						<ul class="footer__list">
+							<li class="footer__item">
+								Меню
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">
+									О нас
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">
+									Кейтеринг
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">
+									Решения
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">
+									Площадки
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">
+									Услуги
+								</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item">
+								Наши проекты
+							</li>
+							<li class="footer__item">
+								<a href="https://astra-marine.ru/" class="footer__link" target="blank">
+									www.astra-marine.ru <br>
+									Аренда теплоходов
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="https://canal-cruise.ru/" class="footer__link" target="blank">
+									www.canal-cruise.ru <br>
+									Canal-cruise.ru
+								</a>
+							</li> 
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item">
+								Офис
+							</li>
+							<li class="footer__item">
+								г. Санкт-Петербург <br>  ул. Кораблестроителей 30/1, офис 219-H
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item">
+								Контакты
+							</li>
+							<li class="footer__item">
+								<a href="mailto:rent@astra-marine.ru" class="footer__link footer__mail" target="blank">
+									rent@astra-marine.ru
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="tel:+79219545104" class="footer__link" target="blank">
+									+7 (921) 954-51-04
+								</a>
+							</li> 
+							<li>
+								<div class="footer__socials d-flex">
+									<a href="#" class="footer__site" target="blank">
+										<img src="img/icon1.svg" alt="" class="svg">
+									</a>
+									<a href="#" class="footer__site" target="blank">
+										<img src="img/icon2.svg" alt="" class="svg">
+									</a>
+									<a href="#" class="footer__site" target="blank">
+										<img src="img/icon3.svg" alt="" class="svg">
+									</a>
+									<a href="#" class="footer__site" target="blank">
+										<img src="img/icon4.svg" alt="" class="svg">
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="footer__rights">
+					Все права защищены Restoflot @ 2022 Карта сайта
+				</p>
+			</div>
+		</footer>
+		<a href="#header" class="text__up go_to" id="#goTop">
+			<img src="img/up.svg" alt="">
+		</a>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal big" id="item5">
+			<div class="popup">
+				<div class="popup-call__box popup-call__box_item">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<div class="popup__flex d-flex">
+						<div class="popup__left">
+							<div class="popup__top">
+								Фуршет на 5-6 человек
+							</div>
+							<p class="popup__one">orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
+							<div class="accordeon-container">
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Брускетты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Фингер фуд</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Мини салаты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+							</div>
+							<a href="" class="popup__add popup__add5 bttn">
+								Заказать <span class="sum">5 000 Р</span>
+							</a>
+						</div>
+						<img src="img/item1.png" alt="" class="popup__pic">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call10">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<h2>
+						Фуршет5
+					</h2>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success10.php" class="js-form10 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit10">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal big" id="item4">
+			<div class="popup">
+				<div class="popup-call__box popup-call__box_item">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<div class="popup__flex d-flex">
+						<div class="popup__left">
+							<div class="popup__top">
+								Фуршет на 5-6 человек
+							</div>
+							<p class="popup__one">orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
+							<ul class="accordion-container">
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Брускетты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Фингер фуд</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Мини салаты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<a href="" class="popup__add popup__add4 bttn">
+								Заказать <span class="sum">5 000 Р</span>
+							</a>
+						</div>
+						<img src="img/item4.png" alt="" class="popup__pic">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call9">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<h2>
+						Фуршет4
+					</h2>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success9.php" class="js-form9 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit9">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal big" id="item3">
+			<div class="popup">
+				<div class="popup-call__box popup-call__box_item">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<div class="popup__flex d-flex">
+						<div class="popup__left">
+							<div class="popup__top">
+								Фуршет на 5-6 человек
+							</div>
+							<p class="popup__one">orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
+							<div class="accordion-container">
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Брускетты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Фингер фуд</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Мини салаты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+							</div>
+							<a href="" class="popup__add popup__add3 bttn">
+								Заказать <span class="sum">5 000 Р</span>
+							</a>
+						</div>
+						<img src="img/item3.png" alt="" class="popup__pic">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call8">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<h2>
+						Фуршет3
+					</h2>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success9.php" class="js-form9 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit9">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal big" id="item2">
+			<div class="popup">
+				<div class="popup-call__box popup-call__box_item">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<div class="popup__flex d-flex">
+						<div class="popup__left">
+							<div class="popup__top">
+								Фуршет на 5-6 человек
+							</div>
+							<p class="popup__one">orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
+							<div class="accordion-container">
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Брускетты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Фингер фуд</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Мини салаты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+							</div>
+							<a href="" class="popup__add popup__add2 bttn">
+								Заказать <span class="sum">5 000 Р</span>
+							</a>
+						</div>
+						<img src="img/item1.png" alt="" class="popup__pic">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call7">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<h2>
+						Фуршет2
+					</h2>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success8.php" class="js-form8 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit8">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal big" id="item1">
+			<div class="popup">
+				<div class="popup-call__box popup-call__box_item">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<div class="popup__flex d-flex">
+						<div class="popup__left">
+							<div class="popup__top">
+								Фуршет на 5-6 человек
+							</div>
+							<p class="popup__one">orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
+							<div class="accordion-container">
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Брускетты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Фингер фуд</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+								<li class="accordeon__item">
+									<div class="accordeon__button closed">Мини салаты</div>
+									<ul class="accordeon__panel">
+										<li class="panel__text">
+											<p class="panel__info">
+												Филе форели шеф-посола - 3 шт.
+											</p>
+											<p class="panel__info">
+												Печеный перец с куриным филе и слив. сыром - 3 шт.
+											</p>
+										</li>
+									</ul>
+								</li>
+							</div>
+							<a href="" class="popup__add popup__add1 bttn">
+								Заказать <span class="sum">5 000 Р</span>
+							</a>
+						</div>
+						<img src="img/item2.png" alt="" class="popup__pic">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call6">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<h2>
+						Фуршет1
+					</h2>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success7.php" class="js-form7 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit7">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call5">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success6.php" class="js-form6 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit6">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call4">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success5.php" class="js-form5 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit5">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call3">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success4.php" class="js-form4 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit4">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call2">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<h2>
+						Получить консультацию
+					</h2>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success3.php" class="js-form3 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit3">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call">
+			<div class="popup">
+				<div class="popup-call__box">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<p class="popup__info">
+						Заполните поля ниже, и мы свяжемся с Вами для уточнения деталей.
+					</p>
+					<form action="success1.php" class="js-form1 order__form popup__form"  id="popupResult" method="post">
+						<input type="text" name="name"  required="" placeholder="Имя*" class="order__input form__field">
+						<input type="tel" name="tel" required="" placeholder="Телефон*" class="order__input form__field">
+						<button class="order__btn bttn data-submit1">
+							Заказать звонок
+						</button>
+						<div class="checkbox">
+							<input class="custom-checkbox" checked="" type="checkbox" id="2">
+							<label for="2"><p>Отправляя заявку, я соглашаюсь <br>
+								на обработку персональных данных</p></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-thank">
+			<div class="popup">
+				<div class="popup-call__box popup-call__box_item">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="" class="close__pic svg">
+					</div>
+					<p class="thank__name">
+						Спасибо!
+					</p>
+					<p class="thank__text">
+						Наш менеджер свяжется с Вами
+						в ближайшее время.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script> -->
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript"
+		src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	<script src="js/jquery.inputmask.bundle.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+		integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/forms.js"></script>
+	<script>
+		/* Локализация datepicker */
+		$.datepicker.regional['ru'] = {
+			closeText: 'Закрыть',
+			prevText: 'Предыдущий',
+			nextText: 'Следующий',
+			currentText: 'Сегодня',
+			monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+			monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'],
+			dayNames: ['воскресенье','понедельник','вторник','среда','четверг','пятница','суббота'],
+			dayNamesShort: ['вск','пнд','втр','срд','чтв','птн','сбт'],
+			dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+			weekHeader: 'Не',
+			dateFormat: 'dd.mm.yy',
+			firstDay: 1,
+			isRTL: false,
+			showMonthAfterYear: false,
+			yearSuffix: ''
+		};
+		$.datepicker.setDefaults($.datepicker.regional['ru']);
+		</script>
+		<script>
+			$(function(){
+				$("#datepicker").datepicker();
+			});
+			</script>
+	<script>
+		$(document).ready(function() {
+		    $('.js-example-basic-single').select2({
+		    	minimumResultsForSearch: -1
+		    });
+		});
+	</script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
